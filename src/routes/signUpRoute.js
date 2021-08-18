@@ -42,7 +42,7 @@ export const signUpRoute = {
                     to: email,
                     from: 'jw207740@gmail.com',
                     subject: 'Email Verification',
-                    text: `Thanks for signing up, click here to verify your email address : http://${process.env.PORT||8080}/verify-email/${verificationString}`,
+                    text: `Thanks for signing up, click here to verify your email address :https://mysterious-tor-36765.herokuapp.com/verify-email/${verificationString}`,
                 });
             } catch (e) {
                 console.log(e)
