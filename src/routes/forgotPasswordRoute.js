@@ -22,7 +22,7 @@ export const forgotPasswordRoute = {
                     subject: 'Password Reset',
                     text: `
                         To reset your password, click this link:
-                        http://localhost:8080/reset-password/${passwordResetCode}
+                        http://localhost:${process.env.PORT||8080}/reset-password/${passwordResetCode}
                     `
                 });//and update here too 
             } catch (e) {
