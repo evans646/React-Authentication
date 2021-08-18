@@ -20,8 +20,7 @@ export const forgotPasswordRoute = {
                     to: email,
                     from: 'jw207740@gmail.com',
                     subject: 'Password Reset',
-                    text: `To reset your password, click this link:
-                        https://mysterious-tor-36765.herokuapp.com/reset-password/${passwordResetCode}
+                    text: `To reset your password, click this link: https://mysterious-tor-36765.herokuapp.com/reset-password/${passwordResetCode}
                     `
                 });//and update here too 
             } catch (e) {
