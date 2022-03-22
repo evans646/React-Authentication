@@ -23,4 +23,4 @@ Users needs to verify their email through the  email confirmation they received 
   <p>Please visit here to view the deployed version <a href='https://mysterious-tor-36765.herokuapp.com'>here </a></p>
 </div>
 
-You can also clone this code to your local machine, change directory to the respective project direcctory and install the packages to get teh project up and running locally. 
+
