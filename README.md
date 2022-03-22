@@ -1,6 +1,6 @@
 # React-Authentication
 
-<h1>Adding user Authentication and authorization to React app - MERN </h1>
+<h4>Adding user Authentication and authorization to React app - MERN </h4>
 
 
 <div>
@@ -12,17 +12,15 @@ Users needs to verify their email through the  email confirmation they received 
 
 
 <ul>
+<li>Users can create account with their emails and oyou must verify your email to make changes to your account</li>
 
-<li>Users can create account with their emails and verify user emails</li>
-
-<li>Users need's to verify their emails before they can make changes to their account and view their profile  </li>
-  
 <li>Forgot your password ? User's can  reset their password and login in with the new password </li>
 
-<li>Users  can also login with their google account</li>
-
+<li>Users  can also login with their google accounts</li>
+  
 <li>Users can also delete their profile</li>
 </ul>
-  <h6>You can view the deployed version <a href='https://mysterious-tor-36765.herokuapp.com'>here </a></h6>
-</h1>
+  <p>Please visit here to view the deployed version <a href='https://mysterious-tor-36765.herokuapp.com'>here </a></p>
 </div>
+
+You can also clone this code to your local machine, change directory to the respective project direcctory and install the packages to get teh project up and running locally. 
