@@ -22,7 +22,7 @@ export const forgotPasswordRoute = {
                     subject: 'Password Reset',
                     text: `
                         To reset your password, click this link:
-                        https://gentle-wave-24493.herokuapp.com/reset-password/${passwordResetCode}
+                        https://mighty-harbor-91828.herokuapp.com/reset-password/${passwordResetCode}
                     `
                 });
             } catch (e) {
