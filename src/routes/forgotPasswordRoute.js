@@ -33,4 +33,4 @@ export const forgotPasswordRoute = {
 
         res.sendStatus(200);
     }
-}
+};
