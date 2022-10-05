@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
+import * as dotenv from 'dotenv';
+dotenv.config()
 import { routes } from './routes';
 import { initializeDbConnection } from './db';
 
