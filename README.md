@@ -19,7 +19,7 @@ Users needs to verify their email through the  email confirmation they received 
   
 <li>Users can also delete their profile</li>
 </ul>
-  <p>Please visit here to view the deployed version <a href='https://mighty-harbor-91828.herokuapp.com/'>here </a></p>
+  <p>View live version <a href='https://mighty-harbor-91828.herokuapp.com'>here </a></p>
 </div>
 
 
