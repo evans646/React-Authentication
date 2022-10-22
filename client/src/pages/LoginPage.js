@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import axios from 'axios';
+import GoogleButton from 'react-google-button';
 import { useToken } from '../auth/useToken';
 import { useQueryParams } from '../util/useQueryParams';
 
@@ -62,7 +63,7 @@ export const LogInPage = () => {
     };
     return (
         <div className="content-container">
-            <h1>Log In</h1>
+            <h1>Sign In</h1>
             {showErrorMessage && <div className="fail">{errorMessage}</div>}
             <input
                 value={emailValue}
@@ -76,13 +77,15 @@ export const LogInPage = () => {
             <hr />
             <button
                 disabled={!emailValue || !passwordValue}
-                onClick={onLogInClicked}>Log In</button>
+                onClick={onLogInClicked}>Sign In</button>
             <button onClick={() => history.push('/forgot-password')}>Forgot your password?</button>
             <button onClick={() => history.push('/signup')}>Don't have an account? Sign Up</button>
-            <button
+            <GoogleButton  disabled={!googleOauthUrl}
+                onClick={() => { window.location.href = googleOauthUrl }} className="google-btn"/>
+            {/* <button
                 disabled={!googleOauthUrl}
                 onClick={() => { window.location.href = googleOauthUrl }}
-            >Log in with Google</button>
+            >Log in with Google</button> */}
         </div>
     );
 };

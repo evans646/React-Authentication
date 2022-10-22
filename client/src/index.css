@@ -31,17 +31,25 @@ button, input {
 }
 
 input {
-    border: 1px solid black;
+    border: 1px solid rgb(17, 95, 178);
 }
 
 button {
-    border: 1px solid black;
+    border: 1px solid rgb(17, 95, 178);
     cursor: pointer;
+}
+.google-btn{
+    width: 100% !important;
+    border-radius: 8px !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
 }
 
 .page-container {
     display: flex;
-    background-color: #ddd;
+    background-color: rgba(209, 229, 231, 0.625);
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
