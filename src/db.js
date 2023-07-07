@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017';
+const dbUrl = process.env.DB_URL || 'mongodb+srv://react-auth:XvcwASoMWd2tQ4h0@auth.sv5ih.mongodb.net/';
 
 let client;
 
